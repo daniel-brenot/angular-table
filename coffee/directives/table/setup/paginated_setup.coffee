@@ -1,5 +1,6 @@
 class PaginatedSetup extends Setup
   constructor: (@configurationVariableNames) ->
+    super()
     @repeatString = "item in sortedAndPaginatedList"
 
   compile: (element) ->
